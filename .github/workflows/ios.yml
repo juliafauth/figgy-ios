@@ -1,0 +1,53 @@
+name: Gerar Figgy para iPhone
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_tests:
+        description: Executar testes no simulador antes de gerar o IPA
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: figgy-ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Testar e gerar IPA
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+
+      - name: Executar testes nativos
+        if: ${{ inputs.run_tests }}
+        run: bash Scripts/test_mac.sh
+
+      - name: Compilar e empacotar Figgy
+        run: bash Scripts/build_ipa.sh
+
+      - name: Disponibilizar IPA
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: Figgy-iPhone
+          path: |
+            build/Figgy.ipa
+            build/Figgy.ipa.sha256
+          if-no-files-found: error
+          retention-days: 3
+
+      - name: Disponibilizar logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: Figgy-logs
+          path: build/logs/
+          if-no-files-found: ignore
+          retention-days: 3

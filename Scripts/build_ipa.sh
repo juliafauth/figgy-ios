@@ -17,6 +17,6 @@ xcodebuild -project Figgy.xcodeproj -scheme Figgy -configuration Release \
 
 # Preserve capabilities for AltStore to discover and provision. These ad-hoc
 # signatures do not authorize installation on an iPhone; AltStore replaces them.
-python3 Scripts/package_ipa.py build/Figgy.xcarchive build/Figgy.ipa
-python3 Scripts/verify_ipa.py build/Figgy.ipa
+python3 Scripts/package_ipa.py build/Figgy.xcarchive build/Figgy.ipa 2>&1 | tee build/logs/package.log
+python3 Scripts/verify_ipa.py build/Figgy.ipa 2>&1 | tee build/logs/verify-ipa.log
 shasum -a 256 build/Figgy.ipa > build/Figgy.ipa.sha256

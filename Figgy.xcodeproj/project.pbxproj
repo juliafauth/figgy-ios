@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		120423DBB0FA47E1CF13983C = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.xcconfig";
+			path = "Config/Signing.xcconfig";
+			sourceTree = "<group>";
+		};
+		A6BA44695E7AD2DEA064E6F9 = {
+			isa = "XCRemoteSwiftPackageReference";
+			repositoryURL = "https://github.com/SDWebImage/libwebp-Xcode.git";
+			requirement = {
+				kind = "exactVersion";
+				version = "1.5.0";
+			};
+		};
+		4B7E288A0B0EB35A56D96790 = {
+			isa = "XCRemoteSwiftPackageReference";
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = "exactVersion";
+				version = "0.9.20";
+			};
+		};
+		E6C37B5DC98FBD36C651EC6A = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "Figgy.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		B52DC8C4FA77D257E10E0589 = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = "FiggyMessages.appex";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		198B2A375DC6F04513009B02 = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = "FiggyShare.appex";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		D6F47F025E72A61FA6AD66CA = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "FiggyLocal.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		1DEBAFE50CC57B4DE583DADE = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = 0;
+			path = "FiggyTests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		644032F41F2325C223F95B82 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/Models.swift";
+			sourceTree = "<group>";
+		};
+		F40E67BDBCBDFDF6C6B38297 = {
+			isa = "PBXBuildFile";
+			fileRef = 644032F41F2325C223F95B82;
+		};
+		EE49F1DB835B9D0CD2A48254 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/StickerStore.swift";
+			sourceTree = "<group>";
+		};
+		58FA9D9BE24673A0A0D9706B = {
+			isa = "PBXBuildFile";
+			fileRef = EE49F1DB835B9D0CD2A48254;
+		};
+		270345594B53CFBD05BD7D4A = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/ImageProcessor.swift";
+			sourceTree = "<group>";
+		};
+		91CB3D0889A54BBCF2636422 = {
+			isa = "PBXBuildFile";
+			fileRef = 270345594B53CFBD05BD7D4A;
+		};
+		D4996A9B29784340EB1D3144 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/PackTransfer.swift";
+			sourceTree = "<group>";
+		};
+		F023477394B1157B19A2E8A6 = {
+			isa = "PBXBuildFile";
+			fileRef = D4996A9B29784340EB1D3144;
+		};
+		54628DF94BA9B9CD246EDB2A = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/AppModel.swift";
+			sourceTree = "<group>";
+		};
+		F0FC823C890EA92B6FD82252 = {
+			isa = "PBXBuildFile";
+			fileRef = 54628DF94BA9B9CD246EDB2A;
+		};
+		D836DC3126F2887BE09760BB = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/CatalogClient.swift";
+			sourceTree = "<group>";
+		};
+		D7B6C7617445CD9351A4C1F0 = {
+			isa = "PBXBuildFile";
+			fileRef = D836DC3126F2887BE09760BB;
+		};
+		21A9DF5692AD08E355284431 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/EditorView.swift";
+			sourceTree = "<group>";
+		};
+		19033B14836D045CFD1CB39D = {
+			isa = "PBXBuildFile";
+			fileRef = 21A9DF5692AD08E355284431;
+		};
+		BD6E5E8668A3613459F8F551 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/ExploreView.swift";
+			sourceTree = "<group>";
+		};
+		5801D38641EAC419038AE5C7 = {
+			isa = "PBXBuildFile";
+			fileRef = BD6E5E8668A3613459F8F551;
+		};
+		5E27244DC666B48684D9997B = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/FiggyApp.swift";
+			sourceTree = "<group>";
+		};
+		218154A4633E8FB44A5284A5 = {
+			isa = "PBXBuildFile";
+			fileRef = 5E27244DC666B48684D9997B;
+		};
+		1238188354BD19180AF05EE7 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/LibraryView.swift";
+			sourceTree = "<group>";
+		};
+		59D7A736816A80E6BD0A4177 = {
+			isa = "PBXBuildFile";
+			fileRef = 1238188354BD19180AF05EE7;
+		};
+		7953575E987C8F2F60E968AA = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/Theme.swift";
+			sourceTree = "<group>";
+		};
+		BCB50BB3AC574BA38387C4DA = {
+			isa = "PBXBuildFile";
+			fileRef = 7953575E987C8F2F60E968AA;
+		};
+		B2682B94F3D52F14D4B45914 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "App/WhatsAppExporter.swift";
+			sourceTree = "<group>";
+		};
+		7DA119829B7DEA38F8722145 = {
+			isa = "PBXBuildFile";
+			fileRef = B2682B94F3D52F14D4B45914;
+		};
+		4750BBC55929547F5E1FF72E = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				F40E67BDBCBDFDF6C6B38297,
+				58FA9D9BE24673A0A0D9706B,
+				91CB3D0889A54BBCF2636422,
+				F023477394B1157B19A2E8A6,
+				F0FC823C890EA92B6FD82252,
+				D7B6C7617445CD9351A4C1F0,
+				19033B14836D045CFD1CB39D,
+				5801D38641EAC419038AE5C7,
+				218154A4633E8FB44A5284A5,
+				59D7A736816A80E6BD0A4177,
+				BCB50BB3AC574BA38387C4DA,
+				7DA119829B7DEA38F8722145,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB563B230410D3811C4430DF = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "folder";
+			path = "Resources/Catalog";
+			sourceTree = "<group>";
+		};
+		67EE5116CA205393C3F5BCE8 = {
+			isa = "PBXBuildFile";
+			fileRef = DB563B230410D3811C4430DF;
+		};
+		E0E27618A2D2A8FEBDD49F35 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Resources/Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		5A0691719B85B1CB71DB7608 = {
+			isa = "PBXBuildFile";
+			fileRef = E0E27618A2D2A8FEBDD49F35;
+		};
+		6327A1005FF0B783151E530B = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.xml";
+			path = "Resources/PrivacyInfo.xcprivacy";
+			sourceTree = "<group>";
+		};
+		3C05C59467B1916C19308213 = {
+			isa = "PBXBuildFile";
+			fileRef = 6327A1005FF0B783151E530B;
+		};
+		D4B31FA64A915E82CFF7F0E0 = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				67EE5116CA205393C3F5BCE8,
+				5A0691719B85B1CB71DB7608,
+				3C05C59467B1916C19308213,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF18A77327E70016BF0D91C = {
+			isa = "XCSwiftPackageProductDependency";
+			package = A6BA44695E7AD2DEA064E6F9;
+			productName = "libwebp";
+		};
+		9A1B998D3FEE1317B4A3CC95 = {
+			isa = "PBXBuildFile";
+			productRef = 4FF18A77327E70016BF0D91C;
+		};
+		26E7EA3825376566CEEF1F2F = {
+			isa = "XCSwiftPackageProductDependency";
+			package = 4B7E288A0B0EB35A56D96790;
+			productName = "ZIPFoundation";
+		};
+		C0A8F39DD44FFBF35AC17F5F = {
+			isa = "PBXBuildFile";
+			productRef = 26E7EA3825376566CEEF1F2F;
+		};
+		48DCB7EA2948DEDDA6C319FD = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				9A1B998D3FEE1317B4A3CC95,
+				C0A8F39DD44FFBF35AC17F5F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA98E77BE927AC4D12A694C0 = {
+			isa = "PBXBuildFile";
+			fileRef = B52DC8C4FA77D257E10E0589;
+			settings = {
+				ATTRIBUTES = (
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		CEA41086995966F9A9F62DD7 = {
+			isa = "PBXBuildFile";
+			fileRef = 198B2A375DC6F04513009B02;
+			settings = {
+				ATTRIBUTES = (
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		34EC437E5837D0D5F6E620DD = {
+			isa = "PBXCopyFilesBuildPhase";
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA98E77BE927AC4D12A694C0,
+				CEA41086995966F9A9F62DD7,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC5AE3F46CA70B20D13DC9 = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = BEC1335CFAD5D87084651E97;
+			remoteInfo = "FiggyMessages";
+		};
+		BA31892A69A6843BE0F91D6E = {
+			isa = "PBXTargetDependency";
+			target = BEC1335CFAD5D87084651E97;
+			targetProxy = D3FC5AE3F46CA70B20D13DC9;
+		};
+		33A2A186B17F8B2EA7E4883D = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = 14B0DFC87A672ABF53BA7C4E;
+			remoteInfo = "FiggyShare";
+		};
+		18F502610B00CF127A86AE23 = {
+			isa = "PBXTargetDependency";
+			target = 14B0DFC87A672ABF53BA7C4E;
+			targetProxy = 33A2A186B17F8B2EA7E4883D;
+		};
+		9151DC42952E41662E6D235D = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Figgy";
+			};
+			name = "Debug";
+		};
+		1C9A2C99281C7174B1CA8A9F = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Figgy";
+			};
+			name = "Release";
+		};
+		64E6F714B788DFB55A3C3772 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				9151DC42952E41662E6D235D,
+				1C9A2C99281C7174B1CA8A9F,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		66F309885914E93A72DC41DE = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 64E6F714B788DFB55A3C3772;
+			buildPhases = (
+				4750BBC55929547F5E1FF72E,
+				D4B31FA64A915E82CFF7F0E0,
+				48DCB7EA2948DEDDA6C319FD,
+				34EC437E5837D0D5F6E620DD,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA31892A69A6843BE0F91D6E,
+				18F502610B00CF127A86AE23,
+			);
+			name = "Figgy";
+			packageProductDependencies = (
+				4FF18A77327E70016BF0D91C,
+				26E7EA3825376566CEEF1F2F,
+			);
+			productName = "Figgy";
+			productReference = E6C37B5DC98FBD36C651EC6A;
+			productType = "com.apple.product-type.application";
+		};
+		76B724AA7FB9A69ABE8FD925 = {
+			isa = "PBXBuildFile";
+			fileRef = 644032F41F2325C223F95B82;
+		};
+		AD366CE173C03A0BFC6880F4 = {
+			isa = "PBXBuildFile";
+			fileRef = EE49F1DB835B9D0CD2A48254;
+		};
+		BA95D70D09B7F6354149F177 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "MessagesExtension/MessagesViewController.swift";
+			sourceTree = "<group>";
+		};
+		AC64B7033DABF407C7D16A52 = {
+			isa = "PBXBuildFile";
+			fileRef = BA95D70D09B7F6354149F177;
+		};
+		84CE696B8639559154F74917 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				76B724AA7FB9A69ABE8FD925,
+				AD366CE173C03A0BFC6880F4,
+				AC64B7033DABF407C7D16A52,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CCD7605EB6CA0C3095639A = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Resources/MessagesAssets.xcassets";
+			sourceTree = "<group>";
+		};
+		0B249066E5E7682F66854E82 = {
+			isa = "PBXBuildFile";
+			fileRef = B1CCD7605EB6CA0C3095639A;
+		};
+		BA0725996FCECB3444474B5F = {
+			isa = "PBXBuildFile";
+			fileRef = 6327A1005FF0B783151E530B;
+		};
+		9F90B5B975780886F15B3B07 = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				0B249066E5E7682F66854E82,
+				BA0725996FCECB3444474B5F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D40B9CC46A2DFBAAD5F427 = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63041ADF6F9354C89DC5A41 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Messages";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "Config/Messages-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				SKIP_INSTALL = "YES";
+			};
+			name = "Debug";
+		};
+		8A5327BF7802D61E47403699 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Messages";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "Config/Messages-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				SKIP_INSTALL = "YES";
+			};
+			name = "Release";
+		};
+		83AE821C2CEED386B03F5ECE = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				E63041ADF6F9354C89DC5A41,
+				8A5327BF7802D61E47403699,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		BEC1335CFAD5D87084651E97 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 83AE821C2CEED386B03F5ECE;
+			buildPhases = (
+				84CE696B8639559154F74917,
+				9F90B5B975780886F15B3B07,
+				C7D40B9CC46A2DFBAAD5F427,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FiggyMessages";
+			packageProductDependencies = (
+			);
+			productName = "FiggyMessages";
+			productReference = B52DC8C4FA77D257E10E0589;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		D63299076D61E12490E1BF59 = {
+			isa = "PBXBuildFile";
+			fileRef = 644032F41F2325C223F95B82;
+		};
+		264F1C2DE444FB4584465100 = {
+			isa = "PBXBuildFile";
+			fileRef = EE49F1DB835B9D0CD2A48254;
+		};
+		87C877BBF3ACDF378E4E0634 = {
+			isa = "PBXBuildFile";
+			fileRef = 270345594B53CFBD05BD7D4A;
+		};
+		A0A5F0573039A30401E7FA32 = {
+			isa = "PBXBuildFile";
+			fileRef = D4996A9B29784340EB1D3144;
+		};
+		64BB437008C3A3D336D3DC78 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "ShareExtension/ShareViewController.swift";
+			sourceTree = "<group>";
+		};
+		BCC81F026CE38BEAD5A78603 = {
+			isa = "PBXBuildFile";
+			fileRef = 64BB437008C3A3D336D3DC78;
+		};
+		4E554058F420590D46225AE7 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				D63299076D61E12490E1BF59,
+				264F1C2DE444FB4584465100,
+				87C877BBF3ACDF378E4E0634,
+				A0A5F0573039A30401E7FA32,
+				BCC81F026CE38BEAD5A78603,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D2C3B9213B3362EDBB4B2A = {
+			isa = "PBXBuildFile";
+			fileRef = 6327A1005FF0B783151E530B;
+		};
+		A8E7D92628B591B0DB14CCBF = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				72D2C3B9213B3362EDBB4B2A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8100176D317D9C0C493E439A = {
+			isa = "XCSwiftPackageProductDependency";
+			package = A6BA44695E7AD2DEA064E6F9;
+			productName = "libwebp";
+		};
+		9590BDA4F70DFADDE58A1413 = {
+			isa = "PBXBuildFile";
+			productRef = 8100176D317D9C0C493E439A;
+		};
+		45478A5183FDC6936484B2F5 = {
+			isa = "XCSwiftPackageProductDependency";
+			package = 4B7E288A0B0EB35A56D96790;
+			productName = "ZIPFoundation";
+		};
+		321F6955417BD6E2515B71AA = {
+			isa = "PBXBuildFile";
+			productRef = 45478A5183FDC6936484B2F5;
+		};
+		39AC37F9260F60EC6AB5928B = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				9590BDA4F70DFADDE58A1413,
+				321F6955417BD6E2515B71AA,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD1EB635FAD3B8214F22C09 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Share";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "Config/Share-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				SKIP_INSTALL = "YES";
+			};
+			name = "Debug";
+		};
+		91A4D0EDD3E228CD283569B5 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Share";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "Config/Share-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Config/Figgy.entitlements";
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				SKIP_INSTALL = "YES";
+			};
+			name = "Release";
+		};
+		7858E15FE35EE0AC49335E39 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				BAD1EB635FAD3B8214F22C09,
+				91A4D0EDD3E228CD283569B5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		14B0DFC87A672ABF53BA7C4E = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 7858E15FE35EE0AC49335E39;
+			buildPhases = (
+				4E554058F420590D46225AE7,
+				A8E7D92628B591B0DB14CCBF,
+				39AC37F9260F60EC6AB5928B,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FiggyShare";
+			packageProductDependencies = (
+				8100176D317D9C0C493E439A,
+				45478A5183FDC6936484B2F5,
+			);
+			productName = "FiggyShare";
+			productReference = 198B2A375DC6F04513009B02;
+			productType = "com.apple.product-type.app-extension";
+		};
+		57266913DCF94F71A912B9DF = {
+			isa = "PBXBuildFile";
+			fileRef = 644032F41F2325C223F95B82;
+		};
+		B2188850DC34FF66D5E9EE66 = {
+			isa = "PBXBuildFile";
+			fileRef = EE49F1DB835B9D0CD2A48254;
+		};
+		8FE2FD14C1C1D3140CF2F3FA = {
+			isa = "PBXBuildFile";
+			fileRef = 270345594B53CFBD05BD7D4A;
+		};
+		06D19273649BAA10ACC53F4E = {
+			isa = "PBXBuildFile";
+			fileRef = D4996A9B29784340EB1D3144;
+		};
+		3B664788585779E2991E2A6D = {
+			isa = "PBXBuildFile";
+			fileRef = 54628DF94BA9B9CD246EDB2A;
+		};
+		29CFA77D865E5ABFDF0AD2B7 = {
+			isa = "PBXBuildFile";
+			fileRef = D836DC3126F2887BE09760BB;
+		};
+		AD5B833E028AC95B321A1E2E = {
+			isa = "PBXBuildFile";
+			fileRef = 21A9DF5692AD08E355284431;
+		};
+		576DE9B8BFB6B72A859E0491 = {
+			isa = "PBXBuildFile";
+			fileRef = BD6E5E8668A3613459F8F551;
+		};
+		243B9B9EA887A23848DAE7F8 = {
+			isa = "PBXBuildFile";
+			fileRef = 5E27244DC666B48684D9997B;
+		};
+		97F4BEC66248033247CEEA43 = {
+			isa = "PBXBuildFile";
+			fileRef = 1238188354BD19180AF05EE7;
+		};
+		B2268AFAEA0D572B9B15AA02 = {
+			isa = "PBXBuildFile";
+			fileRef = 7953575E987C8F2F60E968AA;
+		};
+		A392A6C01F918479154C368C = {
+			isa = "PBXBuildFile";
+			fileRef = B2682B94F3D52F14D4B45914;
+		};
+		6C46D500C6E01A01502BDC6E = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				57266913DCF94F71A912B9DF,
+				B2188850DC34FF66D5E9EE66,
+				8FE2FD14C1C1D3140CF2F3FA,
+				06D19273649BAA10ACC53F4E,
+				3B664788585779E2991E2A6D,
+				29CFA77D865E5ABFDF0AD2B7,
+				AD5B833E028AC95B321A1E2E,
+				576DE9B8BFB6B72A859E0491,
+				243B9B9EA887A23848DAE7F8,
+				97F4BEC66248033247CEEA43,
+				B2268AFAEA0D572B9B15AA02,
+				A392A6C01F918479154C368C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F2E8551083A10C6D8729FD = {
+			isa = "PBXBuildFile";
+			fileRef = DB563B230410D3811C4430DF;
+		};
+		8BC4FDB40E32CCAC440468C1 = {
+			isa = "PBXBuildFile";
+			fileRef = E0E27618A2D2A8FEBDD49F35;
+		};
+		74229B9DD0C1868BE7A7577B = {
+			isa = "PBXBuildFile";
+			fileRef = 6327A1005FF0B783151E530B;
+		};
+		24CE2BF8AABBC9FBB10E7E7A = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				A8F2E8551083A10C6D8729FD,
+				8BC4FDB40E32CCAC440468C1,
+				74229B9DD0C1868BE7A7577B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D76668442C0877B0BABF553 = {
+			isa = "XCSwiftPackageProductDependency";
+			package = A6BA44695E7AD2DEA064E6F9;
+			productName = "libwebp";
+		};
+		F893D8AC090BE89D4399B429 = {
+			isa = "PBXBuildFile";
+			productRef = 3D76668442C0877B0BABF553;
+		};
+		70E8FE85726E7DD296229CC8 = {
+			isa = "XCSwiftPackageProductDependency";
+			package = 4B7E288A0B0EB35A56D96790;
+			productName = "ZIPFoundation";
+		};
+		8871E766D58C5BFDDDFEE668 = {
+			isa = "PBXBuildFile";
+			productRef = 70E8FE85726E7DD296229CC8;
+		};
+		30DB5936D6C5741BD19F24DB = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				F893D8AC090BE89D4399B429,
+				8871E766D58C5BFDDDFEE668,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B728DEC173597752305150 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.local";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Figgy Local";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) FIGGY_LOCAL_ONLY";
+			};
+			name = "Debug";
+		};
+		6096B94E380A989678F37546 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.local";
+				GENERATE_INFOPLIST_FILE = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Figgy Local";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) FIGGY_LOCAL_ONLY";
+			};
+			name = "Release";
+		};
+		49F1B2C972579D50150B842B = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				B4B728DEC173597752305150,
+				6096B94E380A989678F37546,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		EC41A0CFCC9B565803F551F1 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 49F1B2C972579D50150B842B;
+			buildPhases = (
+				6C46D500C6E01A01502BDC6E,
+				24CE2BF8AABBC9FBB10E7E7A,
+				30DB5936D6C5741BD19F24DB,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FiggyLocal";
+			packageProductDependencies = (
+				3D76668442C0877B0BABF553,
+				70E8FE85726E7DD296229CC8,
+			);
+			productName = "FiggyLocal";
+			productReference = D6F47F025E72A61FA6AD66CA;
+			productType = "com.apple.product-type.application";
+		};
+		4F4546F02E3429C2D0CE6391 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/FiggyTests.swift";
+			sourceTree = "<group>";
+		};
+		85EAFD0B8DC0FCADCF6D5546 = {
+			isa = "PBXBuildFile";
+			fileRef = 4F4546F02E3429C2D0CE6391;
+		};
+		1A6FFB4A7EDB59FDB392DC31 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				85EAFD0B8DC0FCADCF6D5546,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8B9A4E62B51E09D1AA3DEE = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D26AE99D735B83167B6993 = {
+			isa = "XCSwiftPackageProductDependency";
+			package = 4B7E288A0B0EB35A56D96790;
+			productName = "ZIPFoundation";
+		};
+		AAFD492B5A308D96F1BBAB07 = {
+			isa = "PBXBuildFile";
+			productRef = F1D26AE99D735B83167B6993;
+		};
+		5773A2A60931EC2D4844C2F8 = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = 2147483647;
+			files = (
+				AAFD492B5A308D96F1BBAB07,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467D86D9C13EB59A21616287 = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = 66F309885914E93A72DC41DE;
+			remoteInfo = "Figgy";
+		};
+		3C9A0FF897A785C2B0683EB3 = {
+			isa = "PBXTargetDependency";
+			target = 66F309885914E93A72DC41DE;
+			targetProxy = 467D86D9C13EB59A21616287;
+		};
+		8BBB9A794A9EEF43925142D9 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Tests";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figgy.app/Figgy";
+			};
+			name = "Debug";
+		};
+		18DDE840F4286D48AE974486 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = 120423DBB0FA47E1CF13983C;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				CODE_SIGN_STYLE = "Automatic";
+				DEVELOPMENT_TEAM = "$(FIGGY_TEAM)";
+				MARKETING_VERSION = "1.0.0";
+				CURRENT_PROJECT_VERSION = "1";
+				SWIFT_EMIT_LOC_STRINGS = "YES";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				ENABLE_USER_SCRIPT_SANDBOXING = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FIGGY_BUNDLE_PREFIX).figgy.Tests";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figgy.app/Figgy";
+			};
+			name = "Release";
+		};
+		6AF056A6F1CC1D155F4755AA = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				8BBB9A794A9EEF43925142D9,
+				18DDE840F4286D48AE974486,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		9EC5A821A9BEF5BC7A9F008C = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 6AF056A6F1CC1D155F4755AA;
+			buildPhases = (
+				1A6FFB4A7EDB59FDB392DC31,
+				CB8B9A4E62B51E09D1AA3DEE,
+				5773A2A60931EC2D4844C2F8,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9A0FF897A785C2B0683EB3,
+			);
+			name = "FiggyTests";
+			packageProductDependencies = (
+				F1D26AE99D735B83167B6993,
+			);
+			productName = "FiggyTests";
+			productReference = 1DEBAFE50CC57B4DE583DADE;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C019C104CA72F724471FD9B = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text";
+			path = "Config/Figgy.entitlements";
+			sourceTree = "<group>";
+		};
+		F8B136C2FFBC6429D3F7E7FF = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.plist.xml";
+			path = "Config/App-Info.plist";
+			sourceTree = "<group>";
+		};
+		6AF16485E8622F4CB59D8ACA = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.plist.xml";
+			path = "Config/Messages-Info.plist";
+			sourceTree = "<group>";
+		};
+		E469D82EE12196FAC44E785C = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.plist.xml";
+			path = "Config/Share-Info.plist";
+			sourceTree = "<group>";
+		};
+		1C48CE29E4E135EE62951B22 = {
+			isa = "PBXGroup";
+			children = (
+				54628DF94BA9B9CD246EDB2A,
+				D836DC3126F2887BE09760BB,
+				21A9DF5692AD08E355284431,
+				BD6E5E8668A3613459F8F551,
+				5E27244DC666B48684D9997B,
+				1238188354BD19180AF05EE7,
+				7953575E987C8F2F60E968AA,
+				B2682B94F3D52F14D4B45914,
+			);
+			name = "App";
+			sourceTree = "<group>";
+		};
+		44C7E229889FE9D1BB841A79 = {
+			isa = "PBXGroup";
+			children = (
+				644032F41F2325C223F95B82,
+				EE49F1DB835B9D0CD2A48254,
+				270345594B53CFBD05BD7D4A,
+				D4996A9B29784340EB1D3144,
+			);
+			name = "Shared";
+			sourceTree = "<group>";
+		};
+		8EC92580CEFD6750E94BFFFB = {
+			isa = "PBXGroup";
+			children = (
+				BA95D70D09B7F6354149F177,
+			);
+			name = "MessagesExtension";
+			sourceTree = "<group>";
+		};
+		49379961FDC56D64F8B36E43 = {
+			isa = "PBXGroup";
+			children = (
+				64BB437008C3A3D336D3DC78,
+			);
+			name = "ShareExtension";
+			sourceTree = "<group>";
+		};
+		A024F06580C79B7582C3806A = {
+			isa = "PBXGroup";
+			children = (
+				DB563B230410D3811C4430DF,
+				E0E27618A2D2A8FEBDD49F35,
+				6327A1005FF0B783151E530B,
+				B1CCD7605EB6CA0C3095639A,
+			);
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		5619E268CFFE28118C19FC6A = {
+			isa = "PBXGroup";
+			children = (
+				120423DBB0FA47E1CF13983C,
+				7C019C104CA72F724471FD9B,
+				F8B136C2FFBC6429D3F7E7FF,
+				6AF16485E8622F4CB59D8ACA,
+				E469D82EE12196FAC44E785C,
+			);
+			name = "Config";
+			sourceTree = "<group>";
+		};
+		156052F04525D0F710673CF0 = {
+			isa = "PBXGroup";
+			children = (
+				4F4546F02E3429C2D0CE6391,
+			);
+			name = "Tests";
+			sourceTree = "<group>";
+		};
+		00C45FD35CB0F9C5F764F070 = {
+			isa = "PBXGroup";
+			children = (
+				E6C37B5DC98FBD36C651EC6A,
+				B52DC8C4FA77D257E10E0589,
+				198B2A375DC6F04513009B02,
+				D6F47F025E72A61FA6AD66CA,
+				1DEBAFE50CC57B4DE583DADE,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		ADCF10F76EBF2A74473E9DC4 = {
+			isa = "PBXGroup";
+			children = (
+				1C48CE29E4E135EE62951B22,
+				44C7E229889FE9D1BB841A79,
+				8EC92580CEFD6750E94BFFFB,
+				49379961FDC56D64F8B36E43,
+				A024F06580C79B7582C3806A,
+				5619E268CFFE28118C19FC6A,
+				156052F04525D0F710673CF0,
+				00C45FD35CB0F9C5F764F070,
+			);
+			sourceTree = "<group>";
+		};
+		83AA6B05946AC6F490664314 = {
+			isa = "XCBuildConfiguration";
+			buildSettings = {
+				SDKROOT = "iphoneos";
+				CLANG_ENABLE_MODULES = "YES";
+				CLANG_ENABLE_OBJC_ARC = "YES";
+				SWIFT_VERSION = "5.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_STRICT_CONCURRENCY = "minimal";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				ENABLE_TESTABILITY = "YES";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+			};
+			name = "Debug";
+		};
+		DDF453236C06D648B2AFCEDD = {
+			isa = "XCBuildConfiguration";
+			buildSettings = {
+				SDKROOT = "iphoneos";
+				CLANG_ENABLE_MODULES = "YES";
+				CLANG_ENABLE_OBJC_ARC = "YES";
+				SWIFT_VERSION = "5.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_STRICT_CONCURRENCY = "minimal";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				ENABLE_TESTABILITY = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+			};
+			name = "Release";
+		};
+		C81BE6FD63C7E0B780E1FA69 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				83AA6B05946AC6F490664314,
+				DDF453236C06D648B2AFCEDD,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		98F54143AB4E86B28C3AFEE0 = {
+			isa = "PBXProject";
+			attributes = {
+				BuildIndependentTargetsInParallel = "YES";
+				LastUpgradeCheck = "1600";
+				TargetAttributes = {
+					9EC5A821A9BEF5BC7A9F008C = {
+						TestTargetID = 66F309885914E93A72DC41DE;
+					};
+				};
+			};
+			buildConfigurationList = C81BE6FD63C7E0B780E1FA69;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-BR",
+				"en",
+				"Base",
+			);
+			mainGroup = ADCF10F76EBF2A74473E9DC4;
+			productRefGroup = 00C45FD35CB0F9C5F764F070;
+			projectDirPath = "";
+			projectRoot = "";
+			packageReferences = (
+				A6BA44695E7AD2DEA064E6F9,
+				4B7E288A0B0EB35A56D96790,
+			);
+			targets = (
+				66F309885914E93A72DC41DE,
+				BEC1335CFAD5D87084651E97,
+				14B0DFC87A672ABF53BA7C4E,
+				EC41A0CFCC9B565803F551F1,
+				9EC5A821A9BEF5BC7A9F008C,
+			);
+		};
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

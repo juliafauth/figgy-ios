@@ -1,0 +1,4 @@
+// Choose your team in Xcode or set these values once for all targets.
+FIGGY_TEAM =
+FIGGY_BUNDLE_PREFIX = com.julia
+FIGGY_APP_GROUP = group.com.julia.figgy

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mood",
+    "name": "Só reações",
+    "author": "Figgy Originals",
+    "category": "Reações",
+    "color": "CDB9F4",
+    "files": [
+      "mood-1.png",
+      "mood-2.png",
+      "mood-3.png",
+      "mood-4.png",
+      "mood-5.png",
+      "mood-6.png"
+    ],
+    "titles": [
+      "AMEI",
+      "SOCORRO",
+      "TÔ DE BOA",
+      "SIM, SIM",
+      "SEM PALAVRAS",
+      "HOJE NÃO"
+    ]
+  },
+  {
+    "id": "cats",
+    "name": "Gatinhos & carinho",
+    "author": "Figgy Originals",
+    "category": "Fofo",
+    "color": "C0E5D2",
+    "files": [
+      "cats-1.png",
+      "cats-2.png",
+      "cats-3.png",
+      "cats-4.png",
+      "cats-5.png",
+      "cats-6.png"
+    ],
+    "titles": [
+      "BOM DIA",
+      "SAUDADE",
+      "TE ADORO",
+      "OBRIGADA",
+      "BOA NOITE",
+      "TUDO BEM"
+    ]
+  },
+  {
+    "id": "study",
+    "name": "Modo universitária",
+    "author": "Figgy Originals",
+    "category": "Estudos",
+    "color": "FFD996",
+    "files": [
+      "study-1.png",
+      "study-2.png",
+      "study-3.png",
+      "study-4.png",
+      "study-5.png",
+      "study-6.png"
+    ],
+    "titles": [
+      "MAIS UM CAFÉ",
+      "COMPILOU!",
+      "TÔ ESTUDANDO",
+      "DEU BUG",
+      "EU CONSIGO",
+      "PRAZO HOJE"
+    ]
+  }
+]

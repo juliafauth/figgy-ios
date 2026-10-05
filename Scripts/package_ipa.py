@@ -45,7 +45,7 @@ def package(archive: Path, output: Path) -> None:
             subprocess.run(["codesign", "--force", "--sign", "-", "--entitlements", str(entitlements),
                             "--generate-entitlement-der", str(bundle)], check=True)
             subprocess.run(["codesign", "--verify", "--strict", str(bundle)], check=True)
-            signed = subprocess.run(["codesign", "--display", "--entitlements", "-", str(bundle)],
+            signed = subprocess.run(["codesign", "--display", "--entitlements", "-", "--xml", str(bundle)],
                                     check=True, capture_output=True).stdout
             if plistlib.loads(signed).get("com.apple.security.application-groups") != [group]:
                 raise RuntimeError("A assinatura não preservou o App Group.")

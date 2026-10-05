@@ -2,7 +2,7 @@ import UIKit
 import Messages
 
 final class MessagesViewController: MSMessagesAppViewController, MSStickerBrowserViewDataSource {
-    private let browser = MSStickerBrowserViewController(stickerSize: .medium)
+    private let browser = MSStickerBrowserViewController(stickerSize: .regular)
     private var stickers: [MSSticker] = []
     private let empty = UILabel()
     override func viewDidLoad() {

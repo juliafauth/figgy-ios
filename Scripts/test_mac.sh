@@ -20,5 +20,5 @@ xcodebuild -project Figgy.xcodeproj -scheme Figgy -configuration Debug \
     -destination "platform=iOS Simulator,id=$simulator_id" \
     -derivedDataPath build/SimulatorDerivedData -clonedSourcePackagesDirPath build/SourcePackages \
     -resultBundlePath build/FiggyTests.xcresult \
-    CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= DEVELOPMENT_TEAM= \
+    ONLY_ACTIVE_ARCH=YES CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= DEVELOPMENT_TEAM= \
     test 2>&1 | tee build/logs/tests.log
